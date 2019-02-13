@@ -8,7 +8,7 @@ I've created this code to explore the performance of the metric learning NN used
  
  Let's take an example:
  
-**top-1 correct:** is plotting the 1st image as the top-1 predicted image (which is bounded by a rectangle). And then plots the most similar same class images in an ascending scores (from the most similar that the model think is, to the less  similar images). 
+**top-1 correct:** is plotting the 1st image as the top-1 predicted image (which is bounded by a rectangle). And then plots the most similar same class images in an ascending scores (from the most similar that the model think is, to the less  similar images).  The 1st column is the repeated images of the image that we are asking the model to predict. The columns 2-7 are the prediction images sorted. (The columns 5-7 are the ground truth class images sorted if the prediciton is incorrect which is not the case here)
 
 ![top-1 correct](example_images/000000.37231_w_67a9841_w_67a9841_42a505fa7.jpg)
 

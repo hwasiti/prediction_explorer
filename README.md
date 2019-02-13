@@ -37,6 +37,7 @@ I've created this code to explore the performance of the metric learning NN used
 All the above plots can be generated for the test set too. However, since there is no ground truth labels, it does not classify them into two correct/incorrect folders, and there are no ground truth images plotted. 
 
 **Sorting from most correct to most confused to most wrong predictions**
+
 The file name generated with the score being the 1st term. Which allows you to sort the file names in the folder of the top-1 correct (for instance), in ascending and you will get the *most correct items* in the top and *most confused* (barely correct) images at the bottom. The same sorting is useful for top-1 incorrect folder in descending. The top files will be the most confused (just barely classified) wrong, and the bottom the *most wrong* predictions.
  
 **P.S.:** To replicate the images above, you can run [this kernel](https://www.kaggle.com/iafoss/similarity-densenet169-0-794lb-kernel-time-limit). And add [this code](https://www.kaggle.com/iafoss/similarity-densenet169-0-794lb-kernel-time-limit#470545) to generate the pandas dataframes needed to generate these images. 

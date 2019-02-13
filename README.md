@@ -45,7 +45,7 @@ It will draw 7 columns of images. Each column has 4 images, with size (sz):
     The 2nd to 4th column composed of images that has the same predicted class from the train set.
     The 5th to 7th column composed of images that has the same class from the ground truth label of the validation image in question.
     
-   # For the pred columns we have 3 states:
+    For the pred columns we have 3 states:
     # 1. sort by topk. Req. : topk == True && hasattr(val_image_df, 'nbs_Image')
     # 2. sort by class. Req.: topk == False (or hasattr(val_image_df, 'nbs_Image')=False) &&  trn_vs_val_df is not None
     # 3. unsorted randomly picked from pred class.

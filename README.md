@@ -23,7 +23,7 @@ I've created this code to explore the performance of the metric learning NN used
 ![top-2 incorrect](example_images/000051.75000_w_e99ed06_w_c3e88ae_4a5aa11c9.jpg)
 
 
-**top-k correct:** Here the plotted images are for the top-1 predicted image then the top-2, top-3 ...etc. Ground truth class plotted in top-k correct plots, since we cannot see enough examples of top-1 images in the columns 2-4, so I thought it would be interesting to see correct class examples.
+**top-k correct:** Here the plotted images are for the top-1 predicted image then the top-2, top-3 ...etc. Ground truth class plotted too in top-k correct plots, since we cannot see enough examples of top-1 images in the columns 2-4, so I thought it would be interesting to see correct class examples.
 
 ![top-k correct](example_images/000004.87500_w_7c5b20d_w_7c5b20d_0bd65a44d.jpg)
 

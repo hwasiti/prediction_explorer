@@ -4,6 +4,8 @@ I've created this code to explore the performance of the metric learning NN used
 
  The function `image_matrix_draw` is going to associate two groups of images to each prediciton of your classifier's validation set predictions. When you train a NN image classifier, you want to see how it is performing. One way to check its performance, and see why it failed on those wrong images, is to checkup the validation images that have been wrongly classified and to compare it with the images of the wrong class + with the images of the ground truth class. This notebook is doing just that.
  
+ The file name generated with the score being the 1st term. Which allows you to sort the file names in the folder of the top-1 correct (for instance), in ascending and you will get the most correct items in the top and most confused and barely correct images at the bottom. The same sorting is useful for top-1 incorrect folder in descending. The top files will be the most confused just barely classified wrong, and the bottom the most wrong classifications.
+ 
  Let's take an example:
  
 **top-1 correct:** is plotting the 1st image as the top-1 predicted image (which is bounded by a rectangle). And then plots the most similar same class images in an ascending scores (from the most similar that the model think is, to the less  similar images). 

@@ -36,7 +36,8 @@ I've created this code to explore the performance of the metric learning NN used
  
 All the above plots can be generated for the test set too. However, since there is no ground truth labels, it does not classify them into two correct/incorrect folders, and there are no ground truth images plotted. 
  
- 
+**P.S.:** To replicate the images above, you can run [this kernel](https://www.kaggle.com/iafoss/similarity-densenet169-0-794lb-kernel-time-limit). And add [this code](https://www.kaggle.com/iafoss/similarity-densenet169-0-794lb-kernel-time-limit#470545) to generate the pandas dataframes needed to generate these images. 
+
  
 The function to explore the prediciton's of a classifier can be used for other metric or Siamese learning NN. It can be even used for classification models with a few modifications in the arguments passed.  
 

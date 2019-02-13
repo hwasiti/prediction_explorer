@@ -1,8 +1,8 @@
 # Explore your classifier model's prediction
 
-I've created this code to explore the performance of the metric learning NN used for the kaggle's [Humpback Whale Identification](https://www.kaggle.com/c/humpback-whale-identification). The metric learning NN that I am using is distance based. The scores are interpreted as the distance between the image that we are testing with the class of the image that the NN is prediciting that is is the most close in the embedding space. In other words it is the similarity measures of the features of an image to other images in the training database.
+I've created this code to explore the performance of the metric learning NN used for the kaggle's [Humpback Whale Identification](https://www.kaggle.com/c/humpback-whale-identification). The metric deep learning model that I am using is distance based. The scores are interpreted as the distance between the image that we are testing with other images which  belong to known classes. The distance is a measure of the similarity of features in the embedding space. 
 
- The function `image_matrix_draw` is going to associate two groups of images to each prediciton of your classifier's validation set predicitons. Basically when you train a NN image classifier, you want to see how it is performing. One way to check its performance, and why it failed on those wrong images, is to checkup the validation images that have been wronlgy classified and to compare it with the images of the wrong class and with the images of the ground truth class. This notebook is doing just that.
+ The function `image_matrix_draw` is going to associate two groups of images to each prediciton of your classifier's validation set predictions. When you train a NN image classifier, you want to see how it is performing. One way to check its performance, and see why it failed on those wrong images, is to checkup the validation images that have been wrongly classified and to compare it with the images of the wrong class + with the images of the ground truth class. This notebook is doing just that.
  
  Let's take an example:
  
